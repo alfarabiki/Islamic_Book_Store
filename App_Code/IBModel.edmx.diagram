@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="12a3df20d63b47d6bf3ba0efb95975be" Name="Diagram1" ZoomLevel="86">
+        <EntityTypeShape EntityType="ISLAMIC_BOOKSTOREModel.tMENU" Width="1.5" PointX="4.875" PointY="0.75" />
+        <EntityTypeShape EntityType="ISLAMIC_BOOKSTOREModel.tCODE" Width="1.5" PointX="0.625" PointY="0.75" />
+        <EntityTypeShape EntityType="ISLAMIC_BOOKSTOREModel.tROLE" Width="1.5" PointX="8.875" PointY="0.75" />
+        <EntityTypeShape EntityType="ISLAMIC_BOOKSTOREModel.tROLESMENU" Width="1.5" PointX="10.875" PointY="0.75" />
+        <EntityTypeShape EntityType="ISLAMIC_BOOKSTOREModel.tASSIGNMENT" Width="1.5" PointX="12.875" PointY="0.75" />
+        <EntityTypeShape EntityType="ISLAMIC_BOOKSTOREModel.vMYROLE" Width="1.5" PointX="0.625" PointY="5.375" />
+        <EntityTypeShape EntityType="ISLAMIC_BOOKSTOREModel.tITEM_DETAIL" Width="1.5" PointX="2.75" PointY="5.375" />
+        <EntityTypeShape EntityType="ISLAMIC_BOOKSTOREModel.tCART" Width="1.5" PointX="6.875" PointY="5.375" />
+        <EntityTypeShape EntityType="ISLAMIC_BOOKSTOREModel.tITEM" Width="1.5" PointX="2.75" PointY="0.75" />
+        <AssociationConnector Association="ISLAMIC_BOOKSTOREModel.FK_tITEM_DETAIL_tITEM" />
+        <EntityTypeShape EntityType="ISLAMIC_BOOKSTOREModel.tPURCHASING" Width="1.5" PointX="8.875" PointY="5.375" />
+        <AssociationConnector Association="ISLAMIC_BOOKSTOREModel.FK_tPURCHASING_tCART" />
+        <EntityTypeShape EntityType="ISLAMIC_BOOKSTOREModel.tUSER" Width="1.5" PointX="6.875" PointY="0.75" />
+        <EntityTypeShape EntityType="ISLAMIC_BOOKSTOREModel.tDOCUMENT" Width="1.5" PointX="4.875" PointY="5.375" />
+        <AssociationConnector Association="ISLAMIC_BOOKSTOREModel.FK_tDOCUMENT_tITEM" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
